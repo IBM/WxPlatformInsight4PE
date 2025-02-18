@@ -2,6 +2,8 @@
 
 This project provides Prometheus metrics on Process Engine (PE) assets.
 
+## Version History
+
 ### v1.0.0
 
 This package is optional and provides metrics of process which are running inside Process Engine. To provide the metrics, the monitoring service `pub.monitor.process.model:getModelList` is called. The metrics `sag_pe_processes_completed`, `sag_pe_processes_failed` and `sag_pe_processes_started` can be scrapped.
