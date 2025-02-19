@@ -2,6 +2,18 @@
 
 This project provides Prometheus metrics on Process Engine (PE) assets.
 
+## Related Work
+
+* [WxPrometheus](https://github.com/IBM/WxPrometheus)
+* [WxPlatformMonitoring](https://github.com/IBM/WxPlatformMonitoring)
+
+## Dependencies 
+
+Following dependent packages must be also installed ...
+
+* [WxPrometheus](https://github.com/IBM/WxPrometheus)
+* [WxPlatformMonitoring](https://github.com/IBM/WxPlatformMonitoring)
+
 ## Version History
 
 ### v1.0.0
@@ -24,3 +36,9 @@ Started and failed processes are printed in `sag_pe_process_non_activity_duratio
 ### v1.2
 
 Same version as `v1.2.0`. Switch version numbering from 3 digits to 2.
+
+## Disclaimer
+
+### IBM Public Repository Disclosure
+
+All content in these repositories including code has been provided by IBM under the associated open source software license and IBM is under no obligation to provide enhancements, updates, or support. IBM developers produced this code as an open source project (not as an IBM product), and IBM makes no assertions as to the level of quality nor security, and will not be maintaining this code going forward.
